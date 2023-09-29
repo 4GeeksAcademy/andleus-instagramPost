@@ -32,3 +32,4 @@ You can find other templates and resources like this at the [school's GitHub pag
 # Andleus-InstaFake
 # InstaFake
 # InstaFake
+# Andleus-InstagramFake

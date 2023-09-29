@@ -40,8 +40,8 @@
 
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Save changes</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Publish</button>
                             </div>
                         </div>
                     </div>
@@ -60,65 +60,108 @@
 
         <ul class="nav nav-tabs justify-content-center" id="tabs" role="tablist">
             <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="grid" data-bs-toggle="tab" data-bs-target="#grid" aria-controls="grid" aria-selected="true"><i class="fa-solid fa-table-cells"></i></button>
+                <button class="nav-link active" id="grid-tab" data-bs-toggle="tab" data-bs-target="#grid" aria-controls="grid" aria-selected="true"><i class="fa-solid fa-table-cells"></i></button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="block" data-bs-toggle="tab" data-bs-target="#block" role="tab" aria-controls="profile" aria-selected="false"><i class="fa-solid fa-square"></i></button>
+                <button class="nav-link" id="block-tab" data-bs-toggle="tab" data-bs-target="#block" role="tab" aria-controls="profile" aria-selected="false"><i class="fa-solid fa-square"></i></button>
             </li>
         </ul>
 
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
-            </li>
-          </ul>
-          <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
-          </div>
-
-
-        <div class="tab-content" id="optionTabs">
+        <div class="tab-content mt-4" id="optionTabs">
             <div class="tab-pane fade show active" id="grid" role="tabpanel" aria-labelledby="grid-tab">
-                <div class="row mb-2">
-                    <div class="col overflow-hidden h-50">
-                        <img src="urraca.jpg" alt="Photo 1" class="img-fluid">
+                <div class="row mb-2 d-flex justify-content-center ">
+                    <div class="col-3 overflow-hidden h-50">
+                        <img src="imgs/urraca.jpg" alt="Photo 1" class="img-fluid">
                     </div>
-                    <div class="col overflow-hidden h-50">
-                        <img src="urraca.jpg" alt="Photo 1" class="img-fluid">
+                    <div class="col-3 overflow-hidden h-50">
+                        <img src="imgs/urraca.jpg" alt="Photo 1" class="img-fluid">
                     </div>
-                    <div class="col overflow-hidden h-50">
-                        <img src="urraca.jpg" alt="Photo 1" class="img-fluid">
-                    </div>
-                </div>
-                <div class="row mb-2">
-                    <div class="col overflow-hidden h-50">
-                        <img src="urraca.jpg" alt="Photo 1" class="img-fluid">
-                    </div>
-                    <div class="col overflow-hidden h-50">
-                        <img src="urraca.jpg" alt="Photo 1" class="img-fluid">
-                    </div>
-                    <div class="col overflow-hidden h-50">
-                        <img src="urraca.jpg" alt="Photo 1" class="img-fluid">
+                    <div class="col-3 overflow-hidden h-50">
+                        <img src="imgs/urraca.jpg" alt="Photo 1" class="img-fluid">
                     </div>
                 </div>
                 <div class="row mb-2">
                     <div class="col overflow-hidden h-50">
-                        <img src="urraca.jpg" alt="Photo 1" class="img-fluid">
+                        <img src="imgs/urraca.jpg" alt="Photo 1" class="img-fluid">
                     </div>
                     <div class="col overflow-hidden h-50">
-                        <img src="urraca.jpg" alt="Photo 1" class="img-fluid">
+                        <img src="imgs/urraca.jpg" alt="Photo 1" class="img-fluid">
                     </div>
                     <div class="col overflow-hidden h-50">
-                        <img src="urraca.jpg" alt="Photo 1" class="img-fluid">
+                        <img src="imgs/urraca.jpg" alt="Photo 1" class="img-fluid">
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col overflow-hidden h-50">
+                        <img src="imgs/urraca.jpg" alt="Photo 1" class="img-fluid">
+                    </div>
+                    <div class="col overflow-hidden h-50">
+                        <img src="imgs/urraca.jpg" alt="Photo 1" class="img-fluid">
+                    </div>
+                    <div class="col overflow-hidden h-50">
+                        <img src="imgs/urraca.jpg" alt="Photo 1" class="img-fluid">
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="block" role="tabpanel" aria-labelledby="block-tab"></div>
+            <div class="tab-pane fade" id="block" role="tabpanel" aria-labelledby="block-tab">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-4 border mb-4">
+                        <div class="row">
+                            <div class="col-8 d-flex justify-content-start">
+                                <h3 class="my-2">La pequeña</h3>
+                            </div>
+                            <div class="col-4 d-flex justify-content-end text-muted">
+                                123/43
+                            </div>
+                        </div>
+                        <div class="row">
+                            <img src="imgs/urraca.jpg" alt="">
+                        </div>
+                        <div class="row">
+                            <p class="mt-2 mb-0"><b>100000 Likes</b></p>
+                            <p>La Urraquilla, la mejor de la casa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-4 border mb-4">
+                        <div class="row">
+                            <div class="col-8 d-flex justify-content-start">
+                                <h3 class="my-2">Perseidas</h3>
+                            </div>
+                            <div class="col-4 d-flex justify-content-end text-muted">
+                                21/412
+                            </div>
+                        </div>
+                        <div class="row">
+                            <img src="imgs/perseidas.jpg" alt="">
+                        </div>
+                        <div class="row">
+                            <p class="mt-2 mb-0"><b>130 Likes</b></p>
+                            <p>Miles de meteoritos cayendo a la tierra</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-4 border mb-4">
+                        <div class="row">
+                            <div class="col-8 d-flex justify-content-start">
+                                <h3 class="my-2">Noche estrellada</h3>
+                            </div>
+                            <div class="col-4 d-flex justify-content-end text-muted">
+                                1/232
+                            </div>
+                        </div>
+                        <div class="row">
+                            <img src="imgs/meteorHorizontal.jpg" alt="">
+                        </div>
+                        <div class="row">
+                            <p class="mt-2 mb-0"><b>57634 Likes</b></p>
+                            <p>Una bonita noche</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         
